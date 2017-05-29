@@ -1,0 +1,67 @@
+// @font-face {
+// 	font-family: "SpeakOT-Bold";
+//    	url:('SpeakOT-Bold.otf'); /* Safari, Android, iOS */
+// }
+
+@font-face {
+  font-family: 'SpeakOT-Bold';
+  src: url('../fonts/SpeakOT-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SpeakOT-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SpeakOT-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/SpeakOT-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SpeakOT-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SpeakOT-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+*{
+	font-family: 'SpeakOT-Bold' !important;
+	font-size: 17px;
+	color: #003E72;
+	text-rendering: optimizelegibilty;
+	text-rendering: antialiasing;	
+	-webkit-font-smoothing: antialiasing;
+	font-smoothing: antialiasing;
+	font-smooth: always;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+	color: $blue-text-color;
+	font-family: "SpeakOT-Bold", sans-serif !important;
+	text-rendering: optimizelegibilty;
+	text-rendering: antialiasing;	
+	-webkit-font-smoothing: antialiasing;
+	font-smoothing: antialiasing;
+	font-smooth: always;
+	-moz-osx-font-smoothing: grayscale;
+}
+.bold{
+	font-weight: bold !important;
+}
+.blue-text{
+	color: $blue-color;
+}
+.white-text{
+	color: $white-color;
+}
+.text-center{
+	text-align: center;
+}
+
+//Mixins for fonts
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}

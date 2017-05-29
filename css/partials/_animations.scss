@@ -1,0 +1,19 @@
+.east-transition{
+	transition: all ease .7s;
+	-moz-transition: all ease .7s;
+	-webkit-transition: all ease .7s;
+	-o-transition: all ease .7s;
+}
+
+.fade-transition{
+	-moz-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.rotate{
+	&.deg-90{
+		transform: rotate(90deg);
+	}
+}

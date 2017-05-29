@@ -1,0 +1,369 @@
+.white-text {
+  color: #ffffff; }
+
+* {
+  font-family: "Open Sans", sans-serif !important;
+  font-rendering: optimizelegibilty;
+  text-rendering: antialiasing; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: #656769; }
+
+.bold {
+  font-weight: bold !important; }
+
+.green-text {
+  color: #03CD4F; }
+
+.blue-text {
+  color: #4A90E2; }
+
+.white-text {
+  color: #ffffff; }
+
+.btn {
+  background: #03CD4F;
+  border-radius: 2px;
+  padding: 10px 25px; }
+  .btn.green {
+    background: #03CD4F; }
+  .btn.blue {
+    background: #4A90E2; }
+
+input {
+  box-shadow: none !important;
+  border: none; }
+
+.no-padding-bottom {
+  padding-bottom: 0 !important; }
+
+.no-padding-top {
+  padding-top: 0 !important; }
+
+.navbar {
+  background-color: transparent;
+  border: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 5px;
+  top: 0;
+  left: 0;
+  z-index: 9999999; }
+
+.main-nav .navbar-nav li a {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px; }
+  .main-nav .navbar-nav li a.border-white {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 5px 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-left: 15px; }
+  .main-nav .navbar-nav li a.border-green {
+    background-color: #03CD4F;
+    padding: 5px 25px;
+    border-radius: 2px;
+    margin-top: 10px; }
+.main-nav .navbar-brand {
+  color: #ffffff; }
+
+#top-banner {
+  background: url("../images/doctor-bg.png");
+  background-size: cover;
+  margin-top: -80px;
+  padding: 220px 0 100px; }
+
+@media (max-width: 450px) {
+  #top-banner .filters .filter-group {
+    width: 100%;
+    border-left: 0;
+    border-bottom: 1px dotted #5B5B5B; } }
+@media (min-width: 700px) and (max-width: 770px) {
+  #top-banner .filters .filter-group {
+    width: 50%;
+    border: 0; } }
+#top-banner:before {
+  content: '';
+  opacity: .5;
+  display: block;
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.welcome-header {
+  color: #ffffff;
+  margin-bottom: 100px; }
+  .welcome-header .welcome-message {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 0; }
+  .welcome-header .welcome-small-message {
+    text-align: center;
+    font-size: 22px; }
+
+.filters {
+  overflow: hidden;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 40px; }
+  .filters .filter-group {
+    float: left;
+    padding-left: 5px;
+    border-left: 1px dotted #5B5B5B;
+    padding: 15px 20px;
+    width: 16.66%;
+    font-weight: 300; }
+    .filters .filter-group.no-line {
+      border: none; }
+    .filters .filter-group .select-form, .filters .filter-group .input-form {
+      -webkit-appearance: none;
+      appearance: none;
+      border: 0;
+      border-radius: 2px;
+      height: 45px;
+      font-weight: 300;
+      font-size: 18px;
+      outline: none; }
+      .filters .filter-group .select-form:focus, .filters .filter-group .input-form:focus {
+        outline: none; }
+    .filters .filter-group .select-form {
+      background-color: #4A90E2;
+      color: #ffffff;
+      background-image: url(../images/arrow-down.png);
+      background-position: 89% 57%;
+      background-repeat: no-repeat; }
+    .filters .filter-group .filter-heading {
+      color: #ffffff;
+      min-height: 40px;
+      font-weight: 300; }
+
+.button-group {
+  text-align: center; }
+  .button-group button {
+    margin: 30px 0 20px;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 300;
+    outline: none; }
+    .button-group button:hover {
+      color: #ffffff; }
+    .button-group button:focus {
+      color: #ffffff;
+      outline: none; }
+
+#benefits {
+  position: relative; }
+  #benefits:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/r-patterns.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+  #benefits .benefits-section {
+    padding: 70px 30px; }
+    #benefits .benefits-section .benefits-item img {
+      max-width: 20%;
+      display: inline-block;
+      float: left; }
+    #benefits .benefits-section .benefits-item p {
+      display: inline-block;
+      width: 80%;
+      float: left;
+      padding-left: 10px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 300;
+      color: #4A90E2; }
+
+#clinics {
+  background: #FBFDFF;
+  text-align: center; }
+  #clinics .clinic-header-text {
+    margin: 50px 0; }
+    #clinics .clinic-header-text h2 {
+      font-weight: 400;
+      color: #656769;
+      font-size: 36px; }
+    #clinics .clinic-header-text p {
+      font-weight: 300; }
+  #clinics .hospitals {
+    padding: 0 40px;
+    text-align: left; }
+    #clinics .hospitals .hospital-row {
+      margin-bottom: 30px; }
+    #clinics .hospitals .hospital-box {
+      background-color: #ffffff;
+      border-radius: 0 0 3px 3px;
+      box-shadow: 0px 2px 4px 0px rgba(95, 95, 95, 0.2); }
+      #clinics .hospitals .hospital-box .hospital-box-header {
+        margin-bottom: 5px;
+        font-weight: 300;
+        color: #4A90E2;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 15px; }
+      #clinics .hospitals .hospital-box .hospital-box-sub-header {
+        font-weight: 300;
+        font-size: 12px;
+        color: #414446;
+        margin-left: 15px;
+        padding-bottom: 15px; }
+  #clinics .all-programs {
+    padding: 30px 50px;
+    text-align: left;
+    background: #4c91e2;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 4px; }
+    #clinics .all-programs .program-header {
+      font-size: 22px;
+      font-weight: 400; }
+    #clinics .all-programs .program-header, #clinics .all-programs .programs {
+      color: #ffffff; }
+
+#comparison {
+  background: url("../images/overlay-image.png");
+  background-size: cover;
+  position: relative; }
+  #comparison:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(267deg, #EA4A33 2%, rgba(255, 76, 91, 0) 99%);
+    background-image: -o-linear-gradient(267deg, #EA4A33 2%, rgba(255, 76, 91, 0) 99%);
+    background-image: linear-gradient(267deg, #EA4A33 2%, rgba(255, 76, 91, 0) 99%);
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #comparison .headings {
+    text-align: center;
+    z-index: 5;
+    color: #ffffff; }
+    #comparison .headings h2 {
+      color: #ffffff;
+      margin: 120px 0 30px;
+      font-weight: 300; }
+  #comparison .body-section {
+    margin-bottom: 100px; }
+    #comparison .body-section .table-heading {
+      margin: 0 100px;
+      background: #222;
+      padding: 20px; }
+      #comparison .body-section .table-heading .feature-heading {
+        font-weight: 300;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center; }
+    #comparison .body-section .table-body {
+      background: #fff;
+      overflow: hidden;
+      margin: 0 100px; }
+      #comparison .body-section .table-body .right-border-lines {
+        border-right: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2; 
+        height: 119px;
+      }
+      #comparison .body-section .table-body .bottom-border-line {
+        border-bottom: 1px solid #e2e2e2; }
+      #comparison .body-section .table-body .point-body {
+        height: 118px;
+        padding: 26px;
+        background: #4A90E2; }
+        #comparison .body-section .table-body .point-body .main-point {
+          margin-bottom: 5px;
+          font-weight: 400;
+          font-size: 20px;
+          color: #ffffff; }
+        #comparison .body-section .table-body .point-body .sub-point {
+          font-weight: 300;
+          color: #ffffff; }
+      #comparison .body-section .table-body .indicators {
+        padding: 1px 0; }
+        #comparison .body-section .table-body .indicators img {
+          margin: 32px auto;
+          width: 25%; }
+
+#reviews {
+  padding: 40px 50px 0;
+  padding-top: 0; }
+  #reviews .right-border-lines {
+    border-right: 1px solid #e2e2e2; }
+  #reviews .no-border-line {
+    border: none; }
+  #reviews .profile {
+    padding: 50px 0; }
+    #reviews .profile img {
+      height: 150px;
+      margin: 20px auto; }
+    #reviews .profile .voices {
+      font-weight: 300;
+      font-size: 14px;
+      padding: 0 20px;
+      text-align: center; }
+
+#footer-body {
+  background-color: #051524;
+  position: relative;
+  padding: 70px 50px 0; }
+  #footer-body:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 80%;
+    background: url(../images/Map-bg.png);
+    background-size: 100% 100%;
+    right: 0px;
+    bottom: 0px; }
+  #footer-body .about-brand .brand {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500; }
+  #footer-body .about-brand .brand-summary {
+    color: #92A0B0;
+    font-weight: 300; }
+  #footer-body .footer-links {
+    color: #92A0B0;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    -webkit-transition: all ease .7s;
+    -o-transition: all ease .7s; }
+    #footer-body .footer-links:hover {
+      text-decoration: none;
+      color: #ffffff; }
+    #footer-body .footer-links img {
+      height: 15px;
+      display: inline-block;
+      margin-right: 5px; }
+  #footer-body .footer-copyright {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px; }
+    #footer-body .footer-copyright p {
+      color: #EFEFEF;
+      font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */

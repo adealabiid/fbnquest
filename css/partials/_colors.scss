@@ -1,0 +1,38 @@
+$blue-color: #003D6F;
+$blue-text-color: #003E72;
+$fbn-red: #B50156;
+$faded-blue: #D1D8DE;
+$white-color: #ffffff;
+$gray-white-color: #F9F9F9;
+$faded-gray-color: #F3F3F3;
+$darker-blue-bg: #364861;
+$light-dark-gray-color: #A6A6A6;
+
+$twitter: #55acee;
+$facebook: #3b5998;
+$black-color: #000000;
+
+.blue-bg{
+	background-color: $blue-color;
+	&.transparent{
+		// background-color: rgba($blue-color, .5);
+		background: rgba(5,52,125,0.83);
+		&.by-90-percent{
+			background: rgba(5,52,125,0.9);
+		}
+	}
+
+}
+.fb-red-bg{
+	background-color: $fbn-red;
+}
+// Utility color classes
+.white-text{
+	color: $white-color !important;
+}
+.blue-text{
+	color: $blue-color;
+}
+.blue-outlines{
+	border: 1px solid $blue-color;
+}

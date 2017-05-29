@@ -1,0 +1,14 @@
+/* lg */
+/* md */
+/* sm */
+/* xs */
+@media (max-width: 450px) {
+  #top-banner .filters .filter-group {
+    width: 100%;
+    border-left: 0;
+    border-bottom: 1px dotted #5B5B5B;
+  }
+  #clinics .hospitals {
+    padding: 0;
+  }
+}

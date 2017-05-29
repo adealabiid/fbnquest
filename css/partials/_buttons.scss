@@ -1,0 +1,46 @@
+.btn{	
+    height: 40px;
+    background-color: $blue-color;
+    color: $white-color;
+    padding: 0px 20px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 40px;
+    text-transform: uppercase;
+	&.btn--blue{
+		background: $blue-color;
+	}
+	&.white-bg{
+		background-color: $white-color !important;
+		color: $blue-color;
+	}
+	&.btn__outline.blue {
+	    background: none;
+	    border: 1px solid #003e72;
+	    border-radius: 100px;
+	    color: #003e72;
+	    font-size: 12px;
+	}
+	&.h-25{
+		height: 25px;
+		line-height: 25px;
+		padding: 0 10px;
+		font-size: 10px;		
+	}
+}
+input{
+	box-shadow: none !important;
+	border: none;	
+	-webkit-appearance: none;
+	appearance: none;
+	border: 0;
+	border-radius: 2px;
+	height: 45px;
+	font-weight: 300;
+	font-size: 18px;
+	outline: none;
+	&:focus{
+		outline: none;
+	}	
+}
+
